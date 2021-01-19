@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Instrukcije.hr</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet"> 
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+	data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>	
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="Prijava.html">Prijava</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ul>	
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="img/background1.png">
+		<div class="carousel-caption">
+			<h1 class="display-2">Učenje gradiva ne mora biti teško!</h1>
+			<h3>Pronađi svog instruktora</h3>
+			<button type="button" class="btn btn-secondary btn-lg">Nađi instruktora</button>
+			<a href="Prijava.html" class="btn btn-primary btn-lg">Prijave za instruktora</a>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<img src="img/background2.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2">Podjeli svoje znanje sa drugima!</h1>
+			<h3>Prijavi se i postani instruktor</h3>
+			<button type="button" class="btn btn-secondary btn-lg">Nađi instruktora</button>
+			<a href="Prijava.html" class="btn btn-primary btn-lg">Prijave za instruktora</a>
+		</div>
+	</div>
+		<div class="carousel-item">
+			<img src="img/background3.png">
+			<div class="carousel-caption">
+			<h1 class="display-3">Instrukcije.hr</h1>
+			<h3>Mjesto za one koji žele znati više!</h3>
+		</div>
+	</div>
+</div>
+</div>
+<!--- INSTRUKTORI -->
+<div class="container-fliuid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+			<h1 class="display-4">Instruktori</h1>
+	</div>
+<hr>
+</div>
+</div>
+
+<!-- Sortiranje -->
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Sortiraj</button>
+  </form>
+</nav>
+
+<!--- Cards -->
+<div class="container-fliuid padding">
+<div class="row padding">
+
+	<div class="col-md-4">
+		<div class="card">
+
+			<div class="container">
+			  <img class="card-img-top" src="img/matt.png" alt="Avatar" class="image">
+			  <div class="overlay">
+			    <div class="text">
+			    	<p>integrali</p>
+			    	<p>matrice</p>
+			    	<p>derivacije</p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="card-body">
+				<h4 class="card-title">Matematika</h4>
+				<p class="card-text">Dajem instrukcije studentima i srednjo školcima.</p>
+				<p class="card-text">Instrukcije su online/uživo.</p>
+				<p class="card-text">Cijena sata: 25kn/h </p>
+				<a href="#" class="btn btn-outline-secondary">Kontaktiraj</a>
+			</div>
+		</div>
+	</div>
+
+		<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/progg.png">
+			<div class="card-body">
+				<h4 class="card-title">Programksi jezik Python</h4>
+				<p class="card-text">Dajem instrukcije učenicima srednje škole.</p>
+				<p class="card-text">Instrukcije su online.</p>
+				<p class="card-text">Cijena sata: 50kn/h </p>
+				<a href="#" class="btn btn-outline-secondary">Kontaktiraj</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/fizz.png">
+			<div class="card-body">
+				<h4 class="card-title">Fizika</h4>
+				<p class="card-text">Dajem instrukcije studentima i srednjo školcima.</p>
+				<p class="card-text">Instrukcije su online/uživo.</p>
+				<p class="card-text">Cijena sata: 30kn/h </p>
+				<a href="#" class="btn btn-outline-secondary">Kontaktiraj</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+
+
+<div class="row text-center padding">
+	<div class="col-12">
+		<a href="#" class="btn btn-outline-secondary">LOAD MORE</a>
+	</div>
+</div>	
+
+
+<!--- Jumbotron -->
+<div class="container-fliuid">
+<div class="row text-center jumbotron">
+	<div class="col-12">
+		<p class="lead">Ako si student i tražiš posao sa strane ovo je odlična prilika za tebe!</p>
+		<p class="lead">Pokaži u čemu si dobar i nauči učenike i studente odabrani predmet.</p>
+		<p class="lead">Prijavi se klikom na gumb.</p>
+	</div>
+
+	<br>
+	<div class="col-12">
+		<a href="Prijava.html"><button type="button" class="btn btn-outline-secondary btn-lg">Prijava</button></a>
+	</div>
+</div>
+</div>
+
+<!--- Connect -->
+<div class="container-fliuid padding">
+<div class="row text-center ">
+	<div class="col-12">
+		<h2>Connect</h2>
+	</div>	
+	<div class="col-12 social padding">
+		<a href="facebook.com"><i class="fab fa-facebook"></i></a>
+		<a href="facebook.com"><i class="fab fa-twitter"></i></a>
+		<a href="facebook.com"><i class="fab fa-google-plus-g"></i></a>
+		<a href="facebook.com"><i class="fab fa-instagram"></i></a>
+		<a href="facebook.com"><i class="fab fa-youtube"></i></a>
+	</div>
+</div>	
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fliuid padding">
+<div class="row text-center">
+		<div class="col-12">
+			<img src="img/logo.png">
+			<hr class="light">
+			<p>123-123-123</p>
+			<p>email@email.hr</p>
+			<p>Rijeka</p>
+			<p>Hrvatska</p>
+		</div>
+		<div class="col-12">
+			<hr class="light-100">
+			<h5>&copy;Instrukcije.hr</h5>
+		</div>
+
+
+</div>
+</div>
+</footer>
+
+
+
+</body>
+</html>
+
+
+
+
+
