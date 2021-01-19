@@ -1,3 +1,4 @@
-# github.com-IvaMate
-I made an example of a webpage for my friend idea.
+# Web Page for giving students instructions
+Github is hosting this web page so visit [https://ivamate.github.io/](this link) for a preview.
+
 
